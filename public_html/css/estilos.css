@@ -1,0 +1,188 @@
+body {
+     
+    background-color: #272727;    
+}
+
+.menu{
+background-color:  #a63e49;
+width: 300px;
+height: 700px;
+margin:  0px;
+margin-left: 100px;
+float: left;
+
+        
+}
+
+.bloque1 {
+        background-color: white;
+        width: 300px;
+        height: 50px;
+        float: left;
+        cursor: pointer;
+        
+}
+.bloque2 {
+        background-color: #a63e49 ;
+        width: 300px;
+        height: 50px;
+        float: left;
+        border-bottom: 1px solid white;
+        cursor: pointer;
+        
+        
+}
+
+.bloque2:hover {
+background-color: blue;
+color: pink;
+
+}
+
+
+.contenido{
+     background-color: #272727; 
+     width: 800px;
+     height: 1000px;
+     margin: 50px;  
+     float: right;  
+}         
+
+
+h1{
+  color:  white;
+  text-align:  center; 
+}
+
+h2{
+  color:  white;
+  text-align:  center; 
+}
+
+
+h3{
+  color:  white;
+    
+}
+
+
+p{
+color: white;
+
+}
+
+p.estilo2{
+color: white;
+text-align:  center;
+}
+
+p.estilo3{
+color: red;
+text-align:  center;
+}
+
+hr.titulos {
+    width: 50px;
+    height: 3px;
+    background-color: #a63e49;
+    border: 0px;
+    padding: 0px;
+
+ }
+
+img {
+
+width: 150px;
+margin: 20px; 
+margin-left: 70px;      
+}
+
+img.izq{ 
+  width: 300px;
+  height: 170px; 
+  margin: 20px;
+  float: left;
+  margin-right: 20px;
+
+}
+
+img.izq:hover {
+    transform: scale(1,1.2);      
+  }
+
+img.derecha{ 
+  width: 300px;
+  height: 200px;
+  margin: 20px; 
+  float: right;
+  margin: 0px;
+}
+
+img.derecha:hover {
+    transform: scale(1,1.2);      
+  }
+
+
+.der{
+  float: right;
+  margin: 20px;  
+
+}
+
+a{
+text-decoration: none;
+color: white;
+
+}
+
+a:hover {
+text-decoration: none;
+color:  red;
+}
+
+ul{
+    color: white;
+}
+
+table, th, td {
+color:  white;
+border: 10px solid #272727;
+border-collapse: collapse;
+}
+th, td {
+background-color: rgb(54, 53, 53);
+}
+
+table, th, td:hover {
+color:  white;
+border-collapse: collapse;
+}
+th, td:hover {
+background-color: gray;
+}
+
+
+input[type=text], select {
+width: 40%;
+background-color: gray;
+color: #272727;
+padding: 5px 2px;
+margin: 10px 0;
+display: inline-block;
+border: 1px solid white;
+
+}
+
+input[type=submit] {
+background-color: white;
+color: red;
+padding: 14px 20px;
+margin: 8px 0;
+cursor: pointer;
+text-align: center;
+}
+
+input[type=submit]:hover {
+background-color:#a63e49;
+color: white;
+}

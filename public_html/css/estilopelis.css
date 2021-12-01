@@ -1,0 +1,197 @@
+body {
+     
+    background-color: #272727;    
+}
+
+.menu{
+        background-color: #a63e49;
+        width: 300px;
+        height: 700px;
+        margin:  0px;
+        margin-left: 100px;
+        float: left;
+        
+}
+
+.bloque1{
+        background-color: white;
+        width: 300px;
+        height: 50px;
+        float: left;
+        cursor: pointer;
+        
+}
+.bloque2{
+        background-color: #a63e49 ;
+        width: 300px;
+        height: 50px;
+        float: left;
+        border-bottom: 1px solid white;
+        cursor: pointer;
+        
+}
+
+.bloque2:hover {
+background-color: blue;
+color: pink;
+}
+
+.bloque3{
+        background-color: #a63e49 ;
+        width: 300px;
+        height: 50px;
+        float: left;
+        border-bottom: 1px solid white;
+        cursor: pointer;
+        
+}
+.bloque3:hover {
+background-color: blue;
+color: red;
+}
+
+.bloque4{
+        background-color: #a63e49 ;
+        width: 300px;
+        height: 50px;
+        float: left;
+        border-bottom: 1px solid white;
+        cursor: pointer;
+        
+}
+.bloque4:hover {
+background-color: blue;
+color: rgb(17, 12, 12);
+}
+
+.bloque5{
+        background-color: #a63e49 ;
+        width: 300px;
+        height: 50px;
+        float: left;
+        border-bottom: 1px solid white;
+        cursor: pointer;
+        
+}
+
+.bloque5:hover {
+background-color: blue;
+color: red;
+}
+
+
+.contenido {
+     background-color: #272727; 
+     width: 800px;
+     height: 1000px;
+     margin: 50px;  
+     float: right;  
+} 
+
+
+div.contenidopeliculas {
+     background-color: #a63e49; 
+     width: 600px;
+     height: 250px;
+     float: right;  
+     margin-right: 150px;
+} 
+p{
+color: white;
+}
+
+p.estilo2 {
+color: white;
+text-align: center;
+}
+
+p.estilo3 {
+color: red;
+text-align:  center;
+}
+h1{
+  color:  white;
+  text-align:  center; 
+  margin: 10px; 
+}
+
+h2{
+  color:  white;
+  text-align:  center; 
+}
+
+
+h3{
+  color:  white;
+    
+}
+
+
+hr {
+width: 50px;
+height: 3px;
+background-color: #a63e49;
+border: 0px;
+}
+
+
+img {
+ width: 150px;
+ margin: 30px; 
+ margin-left: 70px;      
+}
+
+img.btnagregar {
+width: 40px;
+height: 40px;
+margin-left: 300px;
+  
+}
+
+img.btneliminar {
+width: 40px;
+height: 40px;
+     
+}
+
+img.btnagregar:hover {
+transform: scale(1,1.5);      
+}
+img.btneliminar:hover {
+transform: scale(1,1.5);      
+}
+
+img.tabpeliculas {
+width: 100px;
+height: 150px;
+margin: 30px; 
+margin-left: 100px;  
+float: right;
+}
+
+
+table {
+background-color: #ddd;
+text-align: center;
+border-collapse: collapse;
+width: 50%; 
+float: center;    
+}
+
+th,td {
+  padding: 10px;
+}
+
+thead{
+ background-color: #3cb371;
+ color:white;
+}
+tr:nth-child(even) {
+   background-color: #b4e4cd;
+   color: white;   
+}
+
+tr:hover {
+   background-color: #369681;
+   color: white;    
+}
